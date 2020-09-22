@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/inejka/CLionProjects/sem3_lab2_aois/logic_thing.h
+iostream
+-
+string
+-
+
+/home/inejka/CLionProjects/sem3_lab2_aois/main.cpp
+iostream
+-
+logic_thing.h
+/home/inejka/CLionProjects/sem3_lab2_aois/logic_thing.h
+
